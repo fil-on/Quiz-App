@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+:root {
+    background-color: #1a1818;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Nova Square', cursive;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    width: 30rem;
+    /* color: rgb(28, 26, 26); */
+    color: #fff;
+    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    border-radius: .5rem;
+    transition: 150ms;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(18, 114, 244, 0.6);
+    transform: scale(1.03);
+}
+
+/* END PAGE */
+
+#end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
